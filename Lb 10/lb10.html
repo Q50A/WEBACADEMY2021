@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <center>
+<link rel="shortcut icon" href="logo.png" type="image/x-icon">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lab 10</title>
+<style>
+  /* * universal selector for CSS*/
+  *{
+    box-sizing:border-box;
+  }
+  /* A CSS based on ame id and class.*/
+  body{
+    background-repeat: no-repeat;
+    background-image:linear-gradient(to left,gray,white);
+    background-image:url("https://wallpapercave.com/wp/wp9086018.jpg");
+    background-size:122%;
+    /*any HTMl tag can be a selector */
+  }
+  /*The class attribute slects HTML elements with a specific class attribute
+  To slect elements with a specific class write a perios(.) charcter. followed by the class name*/
+  .header{
+    background-image:repeating-radial-gradient(red 15%,white 60%,black 25%);
+    text-align: center;
+    padding: 50px;
+    margin:5px;
+    color:green;
+  }
+  /*The ID selector uses the ID attribute of an HTML element to select a specific element.
+  
+  The ID of an element is unique within a page, so the id selector is used to select one unique element?
+
+  To select an element with a specific ID, write a hash(#) charcter followed by the id of the element*/
+  .topnav{
+  background-color: lightgray;
+  overflow: hidden;
+}
+/*Tag Slector*/
+ h1{
+   color:white;
+ }
+ /*ID Slector*/
+ #Astray h1{
+   color: red;
+ }
+ /*A psuedo class is used to define a special state of an element For example it can be used for style element when a user moves there mouse over it style visisted and universal links differently style an elememt when it gets to focus*/
+  /*the grouping selctor slects all the HTML elements with the same style definitions
+  
+ It will be better to group the selectors, to minimize the code to group selectors sperate each selector with a comma.*/
+/*CSS combinators
+Something that explains relationship between selctors 
+A CSS selctor can contain more than one simple selector 
+between the simple selctors we include a combinator 
+There are four different combinators in CSS
+Decedant selectors (space)
+child selector (>)
+adjacent sibling selector (+)
+general sibling slector (~)*/
+/* The atribute selector it is used to selct elements with a specidied attribute The following example selects all <a> elements with a target attribute*/
+a[target]{
+  background-color: red;
+}
+a:link,
+a:visited {
+    color: blue;
+    font-weight: Bold;
+}
+
+
+ </style>
+</head>
+<body>
+  <div class="header">
+<h1>TAEHS</h1>
+<h2>WEB DEV</h2>
+<h3>10TH GRADE</h3>
+<h4>LAB 10 Internal CSS</h4>
+  </div>
+  <div class="topnav">
+      <a href="../Lab 1/lab1.HTML">Lab 1 </a>
+      <a href="../Lab 2/lab2.html">Lab 2 </a>
+      <a href="../lab 3/lab3.html">Lab 3 </a>
+      <a href="../Lab 4/lab4.html">Lab 4 </a>
+      <a href="../lab 5/lab5.html">Lab 5 </a>
+      <a href="../lab 6/Lab6.html">Lab 6 </a>
+      <a href="../lab 7/lab7.html">Lab 7 </a>
+      <a href="../Lab 8/lab8.html">Lab 8 </a>
+      <a href="../Lab 9/lab9.html">Lab 9 </a>
+      <a href="../Lb 10/lb10.html">Lab 10 </a>
+      <a href="../lb 11/lb11.html">Lab 11 </a>
+      <a href="../lb 12/lb12.html">Lab 12 </a>
+      <a href="../lb 13/lb13.html">Lab 13 </a>
+      <a href="../lb 14/lb14.html">Lab 14 </a>
+      <a href="../lb15/lb15.html">Lab 15 </a>
+      <a href="../lb16/lb16.html">Lab 16 </a>
+      <a href="../lb17/lb17.html">Lab 17 </a>
+      <a href="../lb18/lb18.html">Lab 18 </a>
+      <a href="../lb19/lb19.html">Lab 19 </a>
+      <a href="../lb20/lab20.html">Lab 20 </a>
+      <a href="../Project/movie.html">Project 1</a>
+</div>
+<div id="Astray">
+  <h1>Nathaniel</h1>
+  <h1 id="Astrqy">Babayev</h1>
+  <h1>2/9/22</h1>
+</div>
+<br>
+<a href="https://WEBACADEMY2021.nathanielbabay1.repl.co"> Go Back To Home Page</a>
+</body>
+</head>
+

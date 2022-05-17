@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <center>
+<link rel="shortcut icon" href="logo.png" type="image/x-icon">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+   <link rel="stylesheet" href="../../mainportfolio.css">
+     <link rel="stylesheet" href="lab18.css">
+</head>
+<body>
+  <div class="topnav">
+      <a href="../Lab 1/lab1.HTML">Lab 1 </a>
+      <a href="../Lab 2/lab2.html">Lab 2 </a>
+      <a href="../lab 3/lab3.html">Lab 3 </a>
+      <a href="../Lab 4/lab4.html">Lab 4 </a>
+      <a href="../lab 5/lab5.html">Lab 5 </a>
+      <a href="../lab 6/Lab6.html">Lab 6 </a>
+      <a href="../lab 7/lab7.html">Lab 7 </a>
+      <a href="../Lab 8/lab8.html">Lab 8 </a>
+      <a href="../Lab 9/lab9.html">Lab 9 </a>
+      <a href="../Lb 10/lb10.html">Lab 10 </a>
+      <a href="../lb 11/lb11.html">Lab 11 </a>
+      <a href="../lb 12/lb12.html">Lab 12 </a>
+      <a href="../lb 13/lb13.html">Lab 13 </a>
+      <a href="../lb 14/lb14.html">Lab 14 </a>
+      <a href="../lb15/lb15.html">Lab 15 </a>
+      <a href="../lb16/lb16.html">Lab 16 </a>
+      <a href="../lb17/lb17.html">Lab 17 </a>
+      <a href="../lb18/lb18.html">Lab 18 </a>
+      <a href="../lb19/lb19.html">Lab 19 </a>
+      <a href="../lb20/lab20.html">Lab 20 </a>
+      <a href="../Project/movie.html">Project 1</a>
+</div>
+<h1>TAEHS</h1>
+<h2>WEB DEV</h2>
+<h3>10TH GRADE</h3>
+<h4>LAB 18</h4>
+<h5>By</h5>
+<h6>NATHANIEL BABAYEV</h6>
+<div id="ok">
+</div>
+  <button type="button" onclick="size()">Size</button>
+  <button type="button" onclick="move()">Position</button>
+  <button type="button" onclick="circle()">Shape</button>
+  <button type="button" onclick="hue()">color</button>
+  <button type="button" onclick="reset()">reset</button>
+  <script>
+    function hue(){  document.getElementById("ok").style.backgroundColor="green";
+}
+function move(){ document.getElementById("ok").style.right ="500px";
+}
+function circle(){
+document.getElementById("ok").style.borderRadius="1000px";
+}
+function size(){
+  document.getElementById("ok").style.height = "300px";
+  document.getElementById("ok").style.width = "300px";
+}
+function reset(){  document.getElementById("ok").style.backgroundColor="lightcoral";
+  document.getElementById("ok").style.height = "50px";
+  document.getElementById("ok").style.width = "50px";
+ document.getElementById("ok").style.borderRadius="0px";
+document.getElementById("ok").style.right ="0px";
+}
+  </script>

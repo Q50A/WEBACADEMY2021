@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <center>
+<link rel="shortcut icon" href="logo.png" type="image/x-icon">
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+   <link rel="stylesheet" href="../../mainportfolio.css">
+     <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <div class="topnav">
+      <a href="../Lab 1/lab1.HTML">Lab 1 </a>
+      <a href="../Lab 2/lab2.html">Lab 2 </a>
+      <a href="../lab 3/lab3.html">Lab 3 </a>
+      <a href="../Lab 4/lab4.html">Lab 4 </a>
+      <a href="../lab 5/lab5.html">Lab 5 </a>
+      <a href="../lab 6/Lab6.html">Lab 6 </a>
+      <a href="../lab 7/lab7.html">Lab 7 </a>
+      <a href="../Lab 8/lab8.html">Lab 8 </a>
+      <a href="../Lab 9/lab9.html">Lab 9 </a>
+      <a href="../Lb 10/lb10.html">Lab 10 </a>
+      <a href="../lb 11/lb11.html">Lab 11 </a>
+      <a href="../lb 12/lb12.html">Lab 12 </a>
+      <a href="../lb 13/lb13.html">Lab 13 </a>
+      <a href="../lb 14/lb14.html">Lab 14 </a>
+      <a href="../lb15/lb15.html">Lab 15 </a>
+      <a href="../lb16/lb16.html">Lab 16 </a>
+      <a href="../lb17/lb17.html">Lab 17 </a>
+      <a href="../lb18/lb18.html">Lab 18 </a>
+      <a href="../lb19/lb19.html">Lab 19 </a>
+      <a href="../lb20/lab20.html">Lab 20 </a>
+      <a href="../Project/movie.html">Project 1</a>
+</div>
+<h1>TAEHS</h1>
+<h2>WEB DEV</h2>
+<h3>10TH GRADE</h3>
+<h4>LAB 16</h4>
+<h5>By</h5>
+<h6>NATHANIEL BABAYEV</h6>
+<body> <!--start of the body where the user can see what we write -->
+ <div class="wrapper"> <!--A div class used to identify something  -->
+			
+			
+			<div id="after"> <!--used to identify something but is an id -->
+				<section class="section_info"> <!--creates a section class -->
+					<h1 style="font-size: 3.5em;  margin-bottom: 0.3em;">Registered Info</h1>
+					<h4 style="margin-bottom: 3em; color:#fff">Thank you for registering!</h4>
+				</section>
+
+				<section class="section_userform"> <!--creates a section user used for java  -->
+					<div class="break"> <!-- A div used for css called break -->
+						<p class="result_label">Your name:</p>
+						<p class="result" id="nameResult"></p>
+					</div>
+					<div class="break"> <!-- A div class called break contains the email-->
+						<p class="result_label">Your Email:</p>
+						<p class="result" id="emailResult"></p>
+					</div>
+					<div class="break"> <!-- contains the phone -->
+						<p class="result_label">Your Phone:</p>
+						<p class="result" id="phoneNumResult"></p>
+					</div>
+					
+					<div class="break buttonWrapper"> <!-- COntains buttton wrapper used for the css-->
+							<input id="goBack" class="button" type="button" value="Return" onClick="returnHome();">
+						</div>
+				</section>
+			</div>
+			
+			
+		<center>
+			<div id="before"> <!-- used for css called before -->
+			
+				<section class="section_info">
+					<h1>Register</h1>
+				</section>
+
+				<hr id="line">
+
+				<section class="section_userform">
+					<form name="userform">
+
+						<div class="break"> <!-- used in css to change name-->
+							<p class="input_label">Name:</p>
+							<input class="textbox" id="user_name" type="text" name="input_username" placeholder=""/>
+						</div>
+
+						<div class="break"> <!--used to change the email in css -->
+							<p class="input_label">Email:</p>
+							<input class="textbox" id="user_email" type="text" name="input_email" placeholder=""/>
+						</div>
+
+						<div class="break"> <!--used to change the phone -->
+							<p class="input_label">Phone:</p>
+							<input class="textbox" id="user_phoneNumber" type="text" name="input_phoneNum" placeholder=""/>
+						</div>
+
+						<div class="break buttonWrapper"> <!-- a button wrapper used to create a button -->
+							<input id="input_username_button" class="button" type="button" value="submit" onClick="submitForum();">
+						</div>
+
+					</form>
+				</section>
+			</div>
+    <script src="script.js"></script>
+    </center>
+  </body>
+</html>

@@ -1,0 +1,76 @@
+body {
+  background-color: cyan;
+  color: white;
+  font-family: Verdana;
+  font-size: 120%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.header{
+  border: solid black 10px;
+  height: 200px;
+  width: 49.9999999%;
+}
+
+.draft{
+  border: solid black 10px;
+  height: 310px;
+  width: 21.9999999%;
+  position:relative;
+  bottom: 200px;
+  right: 400px;
+}
+
+.turtle {
+  border: solid black 10px;
+  position:relative;
+  right: 500px;
+  top: 150px;
+  width: 24.9999999%;
+}
+
+.beans {
+  border: solid black 10px;
+  position:relative;
+  right: 500px;
+  top: 220px;
+  width: 24.9999999%;
+}
+
+.house {
+  border: solid black 10px;
+  position:relative;
+  right: 500px;
+  top: 290px;
+  width: 24.9999999%
+}
+.P1 {
+  color: purple;
+  border: solid black 10px;
+  width: 59.9999999%;
+  position:relative;
+  left: 340px;
+  bottom: 800px;
+}
+
+.P2 {
+  color: purple;
+  border: solid black 10px;
+  width: 59.9999999%;
+  position:relative;
+  left: 340px;
+  bottom: 550px;
+}
+
+.P3 {
+  color: purple;
+  border: solid black 10px;
+  width: 59.9999999%;
+  position:relative;
+  left: 340px;
+  bottom: 290px;
+}
+

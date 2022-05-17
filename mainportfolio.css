@@ -1,0 +1,41 @@
+/*line 2 has an asterisk which is a universal selector for CSS it also has an opening tag for CSS*/
+*{
+  box-sizing: border-box;
+}
+/*line 6 has a body tag which has all the information that people can see on your page like line 2 it also has an opening tag.*/
+body{
+  background-color: rgba(255, 166, 0, 0.466);
+  color: rgb(87, 44, 122);
+}
+/* Style of the header */
+.topnav{
+  background-color: gainsboro;
+  overflow: hidden;
+}
+.topnav a{
+  color: blue;
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+}
+.topnav a:hover{
+  background-color:green;
+  color: black;
+}
+.header{
+  background-color: lightgrey;
+  padding: 20px;
+  text-align: center;
+  color: purple;
+}
+.column{
+  float: left;
+  width:33.33%;
+  padding:15px;
+  background-color: white;
+  border: 5px outset gray;
+  text-align: center;
+  box-shadow: 5px 10px black;
+  border-radius: 20px;
+}

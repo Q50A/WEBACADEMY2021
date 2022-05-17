@@ -1,0 +1,87 @@
+/*used to change the color and text in body*/
+body {
+  background-color: darkblue;
+  color: white;
+  text-align: center;
+}
+/*universal astrex in css creates a border*/
+* {
+     margin:1;
+     box-sizing: border-box;
+     font-family: "Helvetica", sabs-serif;
+}
+/* used to change positon color and more for the box and interior */
+#before {
+  border: 10px solid black;
+  background-color: aquamarine;
+  color: black;;
+  padding: 40px;
+  font-size: 25px;
+  float: center;
+  width: 500px;
+  height: 720px;
+  position:relative;
+  bottom: 300px;
+}
+/*used to make the butto  change like the width height and color*/
+.button {
+  width: 150px;
+  padding: 10px;
+  position:relative; 
+  top: 25px;
+  background-color: blue; 
+  font-size: 20px;
+  border: 3px solid black;
+  border-radius: 10px;
+  text-transform: uppercase;
+  color: White;
+}
+/*used to make the button change color when hovering*/
+.button:hover{
+  background-color: peachpuff;
+  color: black;
+  transform:scale(1.05);
+}
+/*makes the button a grid */
+.buttonWrapper{
+  display:grid;
+  justify-content:center;
+}
+/*creates a section info */
+.section_info{
+  text-align:center;
+  margin:1em;
+}
+/*changes the fonr in the scetoion info tag */
+.section_info h1{
+  font-size: 3em;
+}
+/*changes the text bocx and the wrds in them*/
+input {
+  background-color: cyan;
+  color: black;
+}
+/*makes the visibility of everything in after invisible */
+
+/*changes the position of words */
+.input_label {
+  position:relative;
+  right: 150px;
+  top: 55px;
+}
+/*further changes the texbox*/
+.textbox {
+  width: 50%;
+  height: 1.8em;
+  box-sizing:content-box;
+  padding-left: 1em;
+}
+
+#before{
+  opacity:1;
+  display:block;
+}
+ #after{
+  display:none;
+  opacity:0;
+}

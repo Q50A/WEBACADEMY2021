@@ -1,0 +1,24 @@
+<!--Doctype HTML-->
+<html> 
+	<head>
+		<title>Thomas A edison CTE Highschool</title>
+	</head>
+	<body>
+		<h1>Web devolpment Acadmey
+		<h2> 10th grade
+		<h3> Lab 1
+		<h4> Intro to Hyper text markup language
+		<h5> By Nathaniel baabyev
+		<img src="me.jpg">
+		<ul>
+			<li>Good Grades</li>
+			<li>Learn more on HTML</li>
+			<li>learn more on CSS</Li>
+		</ul>
+		<p> each tag has a different meaning like the html tag at the begning indicates you are using html if you put it at then end with a closing tag it means your done with html The head and body tag is the structure for html in the head you would put a ttile and then the name of your title with a closing tag on the body you would put h1- any amount you want with some short text the p command indicates your writing a pargraph and as always when your done end the tag for p and the body
+		<p> My Name is Nathaniel Babayev I enjoy building and repairing computers when it comes to hardware problems Im here to learn more about software and build my own website and maybe to start a business I want to make a website that focuses on building computers and shipping them around like other companies such as CLX, IBUYPOWER
+	</body>
+
+
+</html>
+

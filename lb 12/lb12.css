@@ -1,0 +1,75 @@
+.dropdown{
+  position: realative;
+  display: inline-block;
+}
+.Whale{
+  display: none;
+  position: absolute;
+  background-color: red;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px;
+  z-index:1;
+  color:black;
+  text-decoration: none;
+}
+.dropdown:hover .Whale{
+  display: block;
+}
+
+.drpdown{
+  background-color: red;
+  color: blue;
+  padding: 16px;
+  margin:10px;
+  font-size: 16px;
+  border:none;
+  cursor:pointer;
+}
+/*change the background color of button when hivering on top of it*/
+.dropdown:hover .drpdown{
+  background-color: blue;
+  color: red;
+}
+.dropdown a{
+  color: purple;
+  background-color: orange;
+  border: 1px solid black;
+  padding: 12px 16px;
+  test-decoration: none;
+  display: none;
+}
+
+.dropdown:hover a{
+  display: block;
+  background-color: gray;
+  color: green;
+  border: 0.1px solid  white;
+}
+
+.dropdown:hover a:hover{
+  color: purple;
+  background-color: orange;
+  border: 1px solid black;
+  padding: 12px 16px;
+  test-decoration: none;
+}
+.dropdown img{
+  border:10px dotted red;
+  width:50px;
+  height:50px;
+}
+
+.caption{
+  display: none;
+}
+
+.Whale:hover .caption{
+  display:block;
+  color:white;
+  background-color: black;
+}
+
+.Whale img{
+  height:500px;
+  width:500px;
+}

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="shortcut icon" href="w1.png" type="image/x-icon">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lab 14</title>
+   <link rel="stylesheet" href="../../mainportfolio.css">
+    <style>
+       * {
+        box-sizing: border-box;
+      }
+
+      input[type=text], select, textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        resize: vertical;
+      }
+
+      label {
+        padding: 12px 12px 12px 0;
+        display: inline-block;
+      }
+
+      input[type=submit] {
+        background-color: green;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        float: right;
+      }
+
+      input[type=submit]:hover {
+        background-color: green;
+      }
+
+      .container {
+        border-radius: 5px;
+        background-color: green;
+        padding: 20px;
+      }
+
+      .col-25 {
+        float: left;
+        width: 25%;
+        margin-top: 6px;
+      }
+
+       .col-75 {
+        float: left;
+        width: 75%;
+        margin-top: 6px;
+      }
+     
+      .row:after{
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+      @media screen and (max-width: 600px) {
+        .col-25, .col-75, input[type=submit] {
+          width: 100%;
+          margin-top: 0;
+        }
+      }
+    </style>
+</head>
+<body>
+  <div class="topnav">
+      <a href="../Lab 1/lab1.HTML">Lab 1 </a>
+      <a href="../Lab 2/lab2.html">Lab 2 </a>
+      <a href="../lab 3/lab3.html">Lab 3 </a>
+      <a href="../Lab 4/lab4.html">Lab 4 </a>
+      <a href="../lab 5/lab5.html">Lab 5 </a>
+      <a href="../lab 6/Lab6.html">Lab 6 </a>
+      <a href="../lab 7/lab7.html">Lab 7 </a>
+      <a href="../Lab 8/lab8.html">Lab 8 </a>
+      <a href="../Lab 9/lab9.html">Lab 9 </a>
+      <a href="../Lb 10/lb10.html">Lab 10 </a>
+      <a href="../lb 11/lb11.html">Lab 11 </a>
+      <a href="../lb 12/lb12.html">Lab 12 </a>
+      <a href="../lb 13/lb13.html">Lab 13 </a>
+      <a href="../lb 14/lb14.html">Lab 14 </a>
+      <a href="../lb15/lb15.html">Lab 15 </a>
+      <a href="../lb16/lb16.html">Lab 16 </a>
+      <a href="../lb17/lb17.html">Lab 17 </a>
+      <a href="../lb18/lb18.html">Lab 18 </a>
+      <a href="../lb19/lb19.html">Lab 19 </a>
+      <a href="../lb20/lab20.html">Lab 20 </a>
+      <a href="../Project/movie.html">Project 1</a>
+</div>
+<h1>TAEHS</h1>
+<h2>WEB DEV</h2>
+<h3>10TH GRADE</h3>
+<h4>LAB 14</h4>
+<h5>By</h5>
+<h6>NATHANIEL BABAYEV</h6>
+  <h2>Responsive Form</h2>
+
+    <div class="container">
+      <form action="lab14.html">
+        <div class="row">
+          <div class="col-25">
+            <label for="fname">Nathaniel</label>
+          </div>
+        <div class="col-75">
+          <input type="text" id="fname" name="First Name"
+placeholder="your first name...">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="Iname">Babayev</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="Iname" name="Last Name"
+placeholder="Last name...">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="Country">Country</label>
+        </div>
+        <div class="col-75">
+          <select id="country" name="country">
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="USA">USA</option>
+          </select>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="subject">Subject (Click submit to view Sprite Images)</label>
+        </div>
+        <div class="col-75">
+          <textarea id="subject" name="subject"
+    placeholder="write something..." style="height:200px">
+          </textarea>
+        </div>
+      </div>
+      <br>
+        <div class="row">
+         <input type="submit" value="submit">
+        </div>
+      </form>
+    </div>
+  <a href="https://WEBACADEMY2021.nathanielbabay1.repl.co"> Go Back To Home Page</a>
+</body>
+</html>

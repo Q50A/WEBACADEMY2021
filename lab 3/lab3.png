@@ -1,0 +1,24 @@
+<--doctypehtml-->
+	<html>	
+		<head>
+			<title> base HTML Document</title>
+		</head>
+		<body>
+			<h1>TAEHS</h1>
+			<h2> Web Dev</h2>
+			<h3> !0th grade</h3>
+			<h4> Lab 1</h4>
+			<h5> learning material</h5>
+			<h6> Nathaniel Babayev</h6>
+			<p>content</p>
+			<a href="http:/www.taehs.org"> Click here to visit my highschool</a>
+		<br>	
+	<a href="http:/www.taehs.org"><img src="lab3.png" width="250px"</a>
+		<br>
+	<a href="https://www.w3schools.com/" click for coding refrence</a>
+		<br>
+	<a href="https://www.w3schools.com/"><img src="schools.png" width="250px"> click here to see some cool stuff</a>	
+		<br>
+	<a href="https://www.linkedin.com/"><img src="link.png" width="250px"> click here to sign up for linked</a>	
+		</body>
+	</html>

@@ -1,0 +1,27 @@
+body {
+  background-color: lightseagreen;
+}
+
+#ok{
+  background-color: lightcoral;
+  padding: 100px;
+  border: 5px solid blue;
+  height: 50px;
+  width: 50px;
+  position:relative;
+
+}
+
+button{
+  background-color: red;
+  color: white;
+  border: 5px solid black;
+  border-radius: 10px;
+  width: 75px;
+  height: 35px;
+}
+
+button:hover{
+  background-color:purple;
+  color:black;
+}
